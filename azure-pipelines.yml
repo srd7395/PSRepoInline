@@ -20,5 +20,5 @@ steps:
     azureSubscription: 'AzureConnection'
     ScriptType: 'InlineScript'
     Inline: |
-     new-azresourcegroup -name $rgname -location $location
+     new-azresourcegroup -name $(rgname) -location $(location)
     azurePowerShellVersion: 'LatestVersion'
